@@ -2,6 +2,7 @@ import styled from "styled-components";
 import bg from './img/bg.png';
 import { MainLayout } from "./styles/Layouts";
 import Orb from "./components/Orb/Orb";
+import Navigation from "./components/Navigation/Navigation";
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <AppStyled bg={bg} className="App">
       <Orb></Orb>
       <MainLayout>
+        <Navigation></Navigation>
         
       </MainLayout>
     </AppStyled>
